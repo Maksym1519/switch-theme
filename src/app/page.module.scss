@@ -1,0 +1,42 @@
+.home {
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  position: relative;
+
+  &.dark {
+    background: #000;
+  }
+}
+
+.main {
+  width: 100%;
+  min-height: 100%;
+  flex: 1 1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 100px 100px 0;
+  transition: all .5s;
+}
+
+.mainTitle {
+  font-size: 72px;
+  text-align: center;
+  margin: 0 0 48px;
+
+  &.dark {
+    color: #fff;
+  }
+}
+
+.mainText {
+  font-size: 1rem;
+  line-height: 1.5;
+  text-indent: 3rem;
+
+  &.dark {
+    color: #fff;
+  }
+}
+
